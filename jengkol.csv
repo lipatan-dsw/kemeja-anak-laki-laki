@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 042 Murah,cmt-042,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Kemeja Lengan Pendek Anak Laki-Laki - CGG 001 Murah,cgg-001,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 042 Murah,cmt-042,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 042 Murah,cmt-042,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kemeja / Shirt Casual Anak Laki-Laki - CMT 042 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Anak Laki-Laki ini terbuat dari bahan DENIM.<br/>Kode : CMT 042<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 6 ~ 10<br/>Berat : 425 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kemeja Lengan Pendek Anak Laki-Laki - CGG 001 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CGG 001<br/>Warna : MERAH<br/>Bahan : COTTON<br/>Ukuran : 6 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 042 Murah,cmt-042,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kemeja-anak-laki-laki,catenzo-junior,kemeja-anak-laki-laki,catenzo-junior,"Kemeja Anak Laki-Laki Bahan DENIM, Ukuran 6 ~ 10, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cmt-042.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Anak Laki-Laki - CMT 042,Rp 135.900,Rp 156.900,Rp 21.000,CMT 042,Baru
-Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 044 Murah,cmt-044,"
+     </div><!--/category-tab-->",2019-01-18,html,kemeja-anak-laki-laki,catenzo-junior,kemeja-anak-laki-laki,catenzo-junior,"Kemeja Anak Laki-Laki Bahan COTTON, Warna MERAH, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cgg-001.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Lengan Pendek Anak Laki-Laki - CGG 001,Rp 139.900,Rp 113.900,Rp 125.900,CGG 001,Baru
+Jual Kemeja Lengan Panjang Anak Laki-Laki - CGG 005 Murah,cgg-005,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 044 Murah,cmt-044,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 044 Murah,cmt-044,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kemeja / Shirt Casual Anak Laki-Laki - CMT 044 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Anak Laki-Laki ini terbuat dari bahan DENIM.<br/>Kode : CMT 044<br/>Warna : BIRU NAVY<br/>Bahan : DENIM<br/>Ukuran : 6 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kemeja Lengan Panjang Anak Laki-Laki - CGG 005 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CGG 005<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 4 ~ 8<br/>Berat : 550 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 044 Murah,cmt-044,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kemeja-anak-laki-laki,catenzo-junior,kemeja-anak-laki-laki,catenzo-junior,"Kemeja Anak Laki-Laki Bahan DENIM, Ukuran 6 ~ 10, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cmt-044.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Anak Laki-Laki - CMT 044,Rp 135.900,Rp 156.900,Rp 21.000,CMT 044,Baru
-Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 031 Murah,cmt-031,"
+     </div><!--/category-tab-->",2019-01-18,html,kemeja-anak-laki-laki,catenzo-junior,kemeja-anak-laki-laki,catenzo-junior,"Kemeja Anak Laki-Laki Bahan DENIM, Warna BIRU, Size 4 ~ 8",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cgg-005.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Lengan Panjang Anak Laki-Laki - CGG 005,Rp 154.900,Rp 126.900,Rp 139.900,CGG 005,Baru
+Jual Kemeja Lengan Panjang Anak Laki-Laki - CGG 010 Murah,cgg-010,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 031 Murah,cmt-031,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 031 Murah,cmt-031,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kemeja / Shirt Casual Anak Laki-Laki - CMT 031 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Anak Laki-Laki ini terbuat dari bahan DENIM.<br/>Kode : CMT 031<br/>Warna : BIRU<br/>Bahan : DENIM<br/>Ukuran : 4 ~ 8<br/>Berat : 425 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kemeja Lengan Panjang Anak Laki-Laki - CGG 010 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : CGG 010<br/>Warna : HITAM KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : 6 ~ 10<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,66 +184,4 @@ Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 031 Murah,cmt-031,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-27,html,kemeja-anak-laki-laki,catenzo-junior,kemeja-anak-laki-laki,catenzo-junior,"Kemeja Anak Laki-Laki Bahan DENIM, Ukuran 4 ~ 8, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cmt-031.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Anak Laki-Laki - CMT 031,Rp 107.900,Rp 124.900,Rp 17.000,CMT 031,Baru
-Jual Kemeja / Shirt Casual Anak Laki-Laki - CMT 037 Murah,cmt-037,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
-           <script type=""text/javascript"">
-   <!--
-   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
-   //-->
-   </script>
-          </a>
-         </label>
-        </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include shareit.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Kemeja / Shirt Casual Anak Laki-Laki - CMT 037 adalah salah satu produk merek Catenzo Junior. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kemeja Anak Laki-Laki ini terbuat dari bahan COTTON.<br/>Kode : CMT 037<br/>Warna : ABU ABU<br/>Bahan : COTTON<br/>Ukuran : 4 ~ 8<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2018-02-27,html,kemeja-anak-laki-laki,catenzo-junior,kemeja-anak-laki-laki,catenzo-junior,"Kemeja Anak Laki-Laki Bahan COTTON, Ukuran 4 ~ 8, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-junior-2018/foto-produk-satuan/cmt-037.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja / Shirt Casual Anak Laki-Laki - CMT 037,Rp 94.900,Rp 109.900,Rp 15.000,CMT 037,Baru
+     </div><!--/category-tab-->",2019-01-18,html,kemeja-anak-laki-laki,catenzo-junior,kemeja-anak-laki-laki,catenzo-junior,"Kemeja Anak Laki-Laki Bahan COTTON, Warna HITAM KOMBINASI, Size 6 ~ 10",https://images.lipatan.com/katalog-catenzo-junior-2019/foto-produk-satuan/cgg-010.jpg,-/-,-/-,-/-,-/-,-/-,Kemeja Lengan Panjang Anak Laki-Laki - CGG 010,Rp 139.900,Rp 113.900,Rp 125.900,CGG 010,Baru
